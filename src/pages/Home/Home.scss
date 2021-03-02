@@ -1,0 +1,37 @@
+
+
+.mar-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-section {
+    width: 20%;
+    padding: 0 5px;
+}
+
+.result-container {
+    width: 80%;
+}
+
+.search-sort-section {
+    display: flex;
+    justify-content: space-between;
+    .search-section {
+        width: 60%;
+    }
+    .search-btn {
+        width: 60px;
+        height: 44px;
+        border-left: none;
+    }
+    .sort-section {
+        width: 40%;
+    }
+}
